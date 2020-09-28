@@ -12,6 +12,9 @@ namespace BakeryProject.Controllers
         {
             return View();
         }
-
+        public IActionResult Owner()
+        {
+            return View();
+        }
     }
 }
